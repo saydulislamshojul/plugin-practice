@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery with plugins</title>
+    <!-- All CSS links 
+      -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.green.min.css" />
+    <link rel="stylesheet" href="./css/grt-responsive-menu.css" />
+    <link rel="stylesheet" href="./css/animated-headline.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+  </head>
+  <body id="body">
+    <header class="sticky">
+      <div class="menu-container">
+        <div class="grt-menu-row">
+          <div class="grt-menu-logo">
+            <a href="#" class="grt-logo"><img src="assets/logo.png" /></a>
+          </div>
+
+          <div class="grt-menu-right">
+            <nav>
+              <button class="grt-mobile-button">
+                <span class="line1"></span><span class="line2"></span
+                ><span class="line3"></span>
+              </button>
+              <ul class="grt-menu">
+                <li class="active"><a href="">Home</a></li>
+                <li class="grt-dropdown">
+                  <a href="">About</a>
+                  <ul class="grt-dropdown-list">
+                    <li><a href="#">The company</a></li>
+                    <li><a href="#">The owner</a></li>
+                    <li><a href="#">The vision</a></li>
+                  </ul>
+                </li>
+                <li class="grt-dropdown">
+                  <a href="">Portfolio</a>
+                  <ul class="grt-dropdown-list">
+                    <li><a href="#">As a web developer</a></li>
+                    <li><a href="#">As a graphics designer</a></li>
+                    <li><a href="#">As a SEO marketer</a></li>
+                  </ul>
+                </li>
+                <li><a href="">Blog</a></li>
+                <li class="grt-dropdown">
+                  <a>dropdown</a>
+                  <ul class="grt-dropdown-list">
+                    <li><a href="">Menu 1</a></li>
+                    <li><a href="">Menu 2</a></li>
+                    <li><a href="">Menu 3</a></li>
+                  </ul>
+                </li>
+                <li class="grt-dropdown">
+                  <a href="">contact</a>
+                  <ul class="grt-dropdown-list">
+                    <li><a href="#">The owner</a></li>
+                    <li><a href="#">The manager</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- cd-intro -->
+    <section class="cd-intro">
+      <h1 class="cd-headline clip is-full-width">
+        <span>Here I am practicing</span>
+        <span class="cd-words-wrapper">
+          <b class="is-visible">JQuery</b>
+          <b>JQuery PlugIns</b>
+          <b>Javascript</b>
+        </span>
+      </h1>
+    </section>
+
+    <div class="hero-img"><img src="assets/eyes.jfif" alt="" /></div>
+
+    <div class="owl-carousel owl-theme">
+      <div class="items"><img src="assets/1.jpg" alt="" /></div>
+      <div class="items"><img src="assets/2.jpg" alt="" /></div>
+      <div class="items"><img src="assets/3.jpg" alt="" /></div>
+      <div class="items"><img src="assets/4.jpg" alt="" /></div>
+      <div class="items"><img src="assets/5.jpg" alt="" /></div>
+      <div class="items"><img src="assets/6.jpg" alt="" /></div>
+      <div class="items"><img src="assets/7.jpg" alt="" /></div>
+      <div class="items"><img src="assets/8.jpg" alt="" /></div>
+      <div class="items"><img src="assets/9.jpg" alt="" /></div>
+      <div class="items"><img src="assets/10.jpg" alt="" /></div>
+      <div class="items"><img src="assets/11.jpg" alt="" /></div>
+      <div class="items"><img src="assets/12.jpg" alt="" /></div>
+    </div>
+
+    <div class="container">
+      <!-- isotope plugin start -->
+      <div class="buttons">
+        <button data-filter="*">All</button>
+        <button data-filter=".whoody">Whoody</button>
+        <button data-filter=".t-shirt">T-shirt</button>
+        <button data-filter=".green-t-shirt">Green T-shirt</button>
+        <button data-filter=".black-t-shirt">Black T-shirt</button>
+        <button data-filter=".red-t-shirt">Red T-shirt</button>
+      </div>
+
+      <div class="grid">
+        <div class="grid-item red-t-shirt t-shirt">
+          <img src="assets/1.jpg" alt="" />
+        </div>
+        <div class="grid-item black-t-shirt t-shirt">
+          <img src="assets/2.jpg" alt="" />
+        </div>
+        <div class="grid-item whoody grid-item-w2">
+          <img src="assets/3.jpg" alt="" />
+        </div>
+        <div class="grid-item whoody">
+          <img src="assets/4.jpg" alt="" />
+        </div>
+        <div class="grid-item black-t-shirt t-shirt">
+          <img src="assets/5.jpg" alt="" />
+        </div>
+        <div class="grid-item green-t-shirt t-shirt grid-item-h2">
+          <img src="assets/6.jpg" alt="" />
+        </div>
+        <div class="grid-item black-t-shirt t-shirt">
+          <img src="assets/7.jpg" alt="" />
+        </div>
+        <div class="grid-item green-t-shirt t-shirt">
+          <img src="assets/8.jpg" alt="" />
+        </div>
+        <div class="grid-item black-t-shirt t-shirt grid-item-w2">
+          <img src="assets/9.jpg" alt="" />
+        </div>
+        <div class="grid-item red-t-shirt t-shirt">
+          <img src="assets/10.jpg" alt="" />
+        </div>
+        <div class="grid-item black-t-shirt t-shirt grid-item-h2">
+          <img src="assets/11.jpg" alt="" />
+        </div>
+        <div class="grid-item whoody">
+          <img src="assets/12.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <a class="test-popup-link" href="assets/rocket.jpg"
+        ><img src="assets/rocket.jpg" alt=""
+      /></a>
+      <a class="test-popup-link" href="assets/eyes.jfif"
+        ><img src="assets/eyes.jfif" alt=""
+      /></a>
+      <a class="test-popup-link" href="assets/8.jpg"
+        ><img src="assets/8.jpg" alt=""
+      /></a>
+      <a
+        class="video-view"
+        href="https://youtu.be/36QmRWVBXXE?si=y1U3SpBdj26YyFqs"
+        ><img src="assets/10.jpg" alt=""
+      /></a>
+    </div>
+
+    <div class="parent-container">
+      <a href="assets/1.jpg"><img src="assets/1.jpg" alt="" /></a>
+      <a href="assets/2.jpg"><img src="assets/2.jpg" alt="" /></a>
+      <a href="assets/3.jpg"><img src="assets/3.jpg" alt="" /></a>
+    </div>
+
+    <a href="assets/10.jpg" class="image-link">
+      <img src="assets/10.jpg" />
+    </a>
+    
+    <div class=" againContainer">
+      <div class="count">
+        <h1 class="counter">1234</h1> 
+        <span>Projects</span>
+      </div>
+      <div class="count">
+        <h1 class="counter2">1137</h1> 
+        <span>Projects Done</span>
+      </div>
+      <div class="count">
+        <h1 class="counter3">989</h1> 
+        <span>Happy Clients</span>
+      </div>
+
+    </div>
+
+
+    <!-- All Javascript links 
+      -->
+    <script src="jQuery/jQuery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="jQuery/owl.carousel.min.js"></script>
+    <script src="jQuery/grt-responsive-menu.js"></script>
+    <script src="jQuery/isotope.pkgd.min.js"></script>
+    <script src="jQuery/animated-headline.js"></script>
+    <script src="jQuery/jquery.magnific-popup.min.js"></script>
+    <script src="jQuery/countMe.min.js"></script>
+  </body>
+</html>
